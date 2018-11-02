@@ -1,0 +1,788 @@
+Nov  1 01:40:08 rich-VirtualBox rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="535" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Nov  1 01:40:27 rich-VirtualBox anacron[29829]: Job `cron.daily' terminated
+Nov  1 01:40:27 rich-VirtualBox anacron[29829]: Normal exit (1 job run)
+Nov  1 01:41:08 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 01:41:08 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 01:42:07 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.93' (uid=1000 pid=30038 comm="/usr/lib/firefox/firefox -new-window " label="unconfined")
+Nov  1 01:42:07 rich-VirtualBox systemd[1458]: Starting Virtual filesystem metadata service...
+Nov  1 01:42:08 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Successfully activated service 'org.gtk.vfs.Metadata'
+Nov  1 01:42:08 rich-VirtualBox systemd[1458]: Started Virtual filesystem metadata service.
+Nov  1 01:52:03 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 01:52:03 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 01:53:12 rich-VirtualBox org.gnome.Shell.desktop[1622]: (/usr/lib/firefox/firefox:30827): dconf-WARNING **: 01:53:12.353: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Nov  1 01:57:02 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.107' (uid=1000 pid=30968 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Nov  1 01:57:02 rich-VirtualBox systemd[1458]: Starting GNOME Terminal Server...
+Nov  1 01:57:03 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Successfully activated service 'org.gnome.Terminal'
+Nov  1 01:57:03 rich-VirtualBox systemd[1458]: Started GNOME Terminal Server.
+Nov  1 01:57:21 rich-VirtualBox systemd[1]: Stopping The Apache HTTP Server...
+Nov  1 01:57:21 rich-VirtualBox apachectl[31005]: AH00112: Warning: DocumentRoot [/var/www/html/Rich] does not exist
+Nov  1 01:57:21 rich-VirtualBox apachectl[31005]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 01:57:22 rich-VirtualBox systemd[1]: Stopped The Apache HTTP Server.
+Nov  1 01:57:34 rich-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov  1 01:57:34 rich-VirtualBox apachectl[31013]: AH00112: Warning: DocumentRoot [/var/www/html/Rich] does not exist
+Nov  1 01:57:34 rich-VirtualBox apachectl[31013]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 01:57:34 rich-VirtualBox systemd[1]: Started The Apache HTTP Server.
+Nov  1 01:59:47 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 02:04:08 rich-VirtualBox systemd-resolved[340]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Nov  1 02:04:26 rich-VirtualBox systemd[1]: Stopping The Apache HTTP Server...
+Nov  1 02:04:26 rich-VirtualBox apachectl[31092]: AH00112: Warning: DocumentRoot [/var/www/html/Rich] does not exist
+Nov  1 02:04:26 rich-VirtualBox apachectl[31092]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 02:04:26 rich-VirtualBox systemd[1]: Stopped The Apache HTTP Server.
+Nov  1 02:04:26 rich-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov  1 02:04:26 rich-VirtualBox apachectl[31097]: AH00112: Warning: DocumentRoot [/var/www/html/Rich] does not exist
+Nov  1 02:04:26 rich-VirtualBox apachectl[31097]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 02:04:26 rich-VirtualBox systemd[1]: Started The Apache HTTP Server.
+Nov  1 02:05:05 rich-VirtualBox systemd[1]: Started Run anacron jobs.
+Nov  1 02:05:05 rich-VirtualBox anacron[31111]: Anacron 2.3 started on 2018-11-01
+Nov  1 02:05:05 rich-VirtualBox anacron[31111]: Normal exit (0 jobs run)
+Nov  1 02:07:59 rich-VirtualBox dbus-daemon[31860]: [session uid=0 pid=31858] AppArmor D-Bus mediation is enabled
+Nov  1 02:07:59 rich-VirtualBox dbus-daemon[31860]: [session uid=0 pid=31858] Activating service name='ca.desrt.dconf' requested by ':1.0' (uid=0 pid=31853 comm="gedit /etc/apache2/apache2.conf " label="unconfined")
+Nov  1 02:08:00 rich-VirtualBox dbus-daemon[31860]: [session uid=0 pid=31858] Successfully activated service 'ca.desrt.dconf'
+Nov  1 02:08:00 rich-VirtualBox org.gnome.Shell.desktop[1622]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3600081 (apache2.co)
+Nov  1 02:09:01 rich-VirtualBox CRON[31875]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Nov  1 02:09:05 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 02:09:06 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 02:10:17 rich-VirtualBox nagios3: Auto-save of retention data completed successfully.
+Nov  1 02:10:19 rich-VirtualBox systemd[1]: Stopping The Apache HTTP Server...
+Nov  1 02:10:19 rich-VirtualBox apachectl[32008]: AH00112: Warning: DocumentRoot [/var/www/html/Rich] does not exist
+Nov  1 02:10:19 rich-VirtualBox apachectl[32008]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 02:10:19 rich-VirtualBox systemd[1]: Stopped The Apache HTTP Server.
+Nov  1 02:10:19 rich-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov  1 02:10:19 rich-VirtualBox apachectl[32013]: AH00112: Warning: DocumentRoot [/var/www/html/Rich] does not exist
+Nov  1 02:10:19 rich-VirtualBox apachectl[32013]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 02:10:19 rich-VirtualBox systemd[1]: Started The Apache HTTP Server.
+Nov  1 02:10:42 rich-VirtualBox org.gnome.Shell.desktop[1622]: (/usr/lib/firefox/firefox:30188): dconf-WARNING **: 02:10:42.236: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Nov  1 02:15:11 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 02:15:12 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 02:17:01 rich-VirtualBox CRON[32132]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 02:23:12 rich-VirtualBox org.gnome.Shell.desktop[1622]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3600081 (apache2.co)
+Nov  1 02:30:19 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 02:32:28 rich-VirtualBox systemd-resolved[340]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Nov  1 02:38:09 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.110' (uid=1000 pid=32329 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Nov  1 02:38:09 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31859 (dbus-launch) in control group while starting unit. Ignoring.
+Nov  1 02:38:09 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 02:38:09 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31860 (dbus-daemon) in control group while starting unit. Ignoring.
+Nov  1 02:38:09 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 02:38:09 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31863 (dconf-service) in control group while starting unit. Ignoring.
+Nov  1 02:38:09 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 02:38:09 rich-VirtualBox systemd[1458]: Starting GNOME Terminal Server...
+Nov  1 02:38:09 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Successfully activated service 'org.gnome.Terminal'
+Nov  1 02:38:09 rich-VirtualBox systemd[1458]: Started GNOME Terminal Server.
+Nov  1 02:39:01 rich-VirtualBox CRON[32366]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Nov  1 02:39:05 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 02:39:06 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 02:42:32 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.113' (uid=1000 pid=32505 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Nov  1 02:42:32 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31859 (dbus-launch) in control group while starting unit. Ignoring.
+Nov  1 02:42:32 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 02:42:32 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31860 (dbus-daemon) in control group while starting unit. Ignoring.
+Nov  1 02:42:32 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 02:42:32 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31863 (dconf-service) in control group while starting unit. Ignoring.
+Nov  1 02:42:32 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 02:42:32 rich-VirtualBox systemd[1458]: Starting GNOME Terminal Server...
+Nov  1 02:42:32 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Successfully activated service 'org.gnome.Terminal'
+Nov  1 02:42:32 rich-VirtualBox systemd[1458]: Started GNOME Terminal Server.
+Nov  1 02:46:00 rich-VirtualBox org.gnome.Shell.desktop[1622]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3000081 (apache2.co)
+Nov  1 02:47:55 rich-VirtualBox org.gnome.Shell.desktop[1622]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3000081 (phpmyadmin)
+Nov  1 02:51:33 rich-VirtualBox gnome-shell[1622]: Some code accessed the property 'WindowPreviewMenuItem' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Nov  1 02:53:16 rich-VirtualBox systemd[1]: Created slice User Slice of root.
+Nov  1 02:53:16 rich-VirtualBox systemd[1]: Starting User Manager for UID 0...
+Nov  1 02:53:16 rich-VirtualBox systemd[1]: Started Session 3 of user root.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Listening on GnuPG network certificate management daemon.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Starting D-Bus User Message Bus Socket.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Started Pending report trigger for Ubuntu Report.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Reached target Paths.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Reached target Timers.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Listening on D-Bus User Message Bus Socket.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Reached target Sockets.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Reached target Basic System.
+Nov  1 02:53:17 rich-VirtualBox systemd[1]: Started User Manager for UID 0.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Reached target Default.
+Nov  1 02:53:17 rich-VirtualBox systemd[32660]: Startup finished in 149ms.
+Nov  1 02:54:14 rich-VirtualBox gnome-shell[1622]: Some code accessed the property 'WindowPreviewMenu' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Nov  1 02:55:52 rich-VirtualBox systemd[1]: Stopping User Manager for UID 0...
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Stopped target Default.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Stopped target Basic System.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Stopped target Paths.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Stopped target Timers.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Stopped Pending report trigger for Ubuntu Report.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Stopped target Sockets.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Closed GnuPG cryptographic agent and passphrase cache.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Closed GnuPG network certificate management daemon.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Closed D-Bus User Message Bus Socket.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Reached target Shutdown.
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Starting Exit the Session...
+Nov  1 02:55:52 rich-VirtualBox systemd[32660]: Received SIGRTMIN+24 from PID 32699 (kill).
+Nov  1 02:55:52 rich-VirtualBox systemd[1]: Stopped User Manager for UID 0.
+Nov  1 02:55:52 rich-VirtualBox systemd[1]: Removed slice User Slice of root.
+Nov  1 02:58:16 rich-VirtualBox systemd[1]: Stopping MySQL Community Server...
+Nov  1 02:58:20 rich-VirtualBox systemd[1]: Stopped MySQL Community Server.
+Nov  1 02:58:20 rich-VirtualBox systemd[1]: Starting MySQL Community Server...
+Nov  1 02:58:20 rich-VirtualBox kernel: [17329.574399] audit: type=1400 audit(1541055500.789:75): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=32743 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov  1 02:58:20 rich-VirtualBox kernel: [17329.624586] audit: type=1400 audit(1541055500.837:76): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=32745 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=124 ouid=0
+Nov  1 02:58:21 rich-VirtualBox systemd[1]: Started MySQL Community Server.
+Nov  1 02:59:06 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 02:59:06 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 03:01:17 rich-VirtualBox systemd[1]: Started Run anacron jobs.
+Nov  1 03:01:17 rich-VirtualBox anacron[337]: Anacron 2.3 started on 2018-11-01
+Nov  1 03:01:17 rich-VirtualBox anacron[337]: Normal exit (0 jobs run)
+Nov  1 03:06:59 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 03:06:59 rich-VirtualBox systemd-resolved[340]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Nov  1 03:07:31 rich-VirtualBox org.gnome.Shell.desktop[1622]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3000081 (50-server.)
+Nov  1 03:08:41 rich-VirtualBox org.gnome.Shell.desktop[1622]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x3000081 (mysqld.cnf)
+Nov  1 03:09:01 rich-VirtualBox CRON[427]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Nov  1 03:09:05 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 03:09:06 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 03:09:27 rich-VirtualBox systemd[1]: Stopping MySQL Community Server...
+Nov  1 03:09:30 rich-VirtualBox systemd[1]: Stopped MySQL Community Server.
+Nov  1 03:09:30 rich-VirtualBox systemd[1]: Starting MySQL Community Server...
+Nov  1 03:09:30 rich-VirtualBox kernel: [17999.657275] audit: type=1400 audit(1541056170.872:77): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=564 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov  1 03:09:30 rich-VirtualBox kernel: [17999.704228] audit: type=1400 audit(1541056170.920:78): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=567 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=124 ouid=0
+Nov  1 03:09:31 rich-VirtualBox systemd[1]: Started MySQL Community Server.
+Nov  1 03:10:17 rich-VirtualBox nagios3: Auto-save of retention data completed successfully.
+Nov  1 03:17:01 rich-VirtualBox CRON[693]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 03:19:29 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 03:19:29 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 03:19:29 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 03:19:29 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 03:19:30 rich-VirtualBox kernel: [18575.488242] e1000: enp0s3 NIC Link is Down
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.8114] device (enp0s3): carrier: link connected
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.8122] device (enp0s3): DHCPv4 lease renewal requested
+Nov  1 03:19:32 rich-VirtualBox kernel: [18577.503877] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.8131] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 29806
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.8131] dhcp4 (enp0s3): state changed bound -> done
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.8849] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.8894] dhcp4 (enp0s3): dhclient started with pid 709
+Nov  1 03:19:32 rich-VirtualBox dhclient[709]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x304b7dc3)
+Nov  1 03:19:32 rich-VirtualBox dhclient[709]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.9913] dhcp4 (enp0s3):   address 10.0.2.15
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.9913] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.9913] dhcp4 (enp0s3):   gateway 10.0.2.2
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.9913] dhcp4 (enp0s3):   lease time 86400
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.9913] dhcp4 (enp0s3):   nameserver '192.168.1.1'
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.9913] dhcp4 (enp0s3):   domain name 'fios-router.home'
+Nov  1 03:19:32 rich-VirtualBox NetworkManager[586]: <info>  [1541056772.9913] dhcp4 (enp0s3): state changed unknown -> bound
+Nov  1 03:19:32 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 03:19:33 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 03:19:33 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 03:19:33 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 03:19:33 rich-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Nov  1 03:19:33 rich-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Nov  1 03:19:33 rich-VirtualBox dhclient[709]: bound to 10.0.2.15 -- renewal in 35192 seconds.
+Nov  1 10:26:15 rich-VirtualBox systemd[1]: Starting Daily apt upgrade and clean activities...
+Nov  1 10:26:15 rich-VirtualBox anacron[725]: Anacron 2.3 started on 2018-11-01
+Nov  1 10:26:15 rich-VirtualBox anacron[725]: Normal exit (0 jobs run)
+Nov  1 10:26:15 rich-VirtualBox systemd[1]: Started Run anacron jobs.
+Nov  1 10:26:15 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 10:26:15 rich-VirtualBox nagios3: Warning: A system time change of 0d 7h 6m 42s (forwards in time) has been detected.  Compensating...
+Nov  1 10:26:16 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 10:26:21 rich-VirtualBox systemd[1]: Started Daily apt upgrade and clean activities.
+Nov  1 10:27:49 rich-VirtualBox snapd[591]: storehelpers.go:398: cannot refresh: snap has no updates available: "core", "gnome-3-26-1604", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Nov  1 10:27:49 rich-VirtualBox snapd[591]: autorefresh.go:387: auto-refresh: all snaps are up-to-date
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 640x438 Warning: We only handle separate sync.
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 640x438 stride
+Nov  1 10:37:03 rich-VirtualBox nautilus[30342]: gtk_notebook_get_tab_label: assertion 'list != NULL' failed
+Nov  1 10:37:03 rich-VirtualBox nautilus[30342]: nautilus_notebook_sync_tab_label: assertion 'GTK_IS_WIDGET (hbox)' failed
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 640x438 Warning: We only handle separate sync.
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 10:37:03 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 10:37:05 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 10:37:05 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 10:37:05 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 10:37:05 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 10:37:05 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 1600x835 stride
+Nov  1 10:37:06 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 10:37:06 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 10:37:06 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 10:37:06 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 10:37:35 rich-VirtualBox systemd[1]: Stopping The Apache HTTP Server...
+Nov  1 10:37:35 rich-VirtualBox apachectl[1073]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 10:37:36 rich-VirtualBox systemd[1]: Stopped The Apache HTTP Server.
+Nov  1 10:37:36 rich-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov  1 10:37:36 rich-VirtualBox apachectl[1078]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 10:37:36 rich-VirtualBox systemd[1]: Started The Apache HTTP Server.
+Nov  1 10:38:23 rich-VirtualBox nagios3: SERVICE ALERT: localhost;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 302 Found - 546 bytes in 0.002 second response time
+Nov  1 10:38:23 rich-VirtualBox nagios3: SERVICE NOTIFICATION: root;localhost;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 302 Found - 546 bytes in 0.002 second response time
+Nov  1 10:38:23 rich-VirtualBox postfix/sendmail[1105]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 10:39:01 rich-VirtualBox CRON[1110]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Nov  1 10:39:05 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 10:39:06 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 10:43:23 rich-VirtualBox nagios3: SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;1;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 2.484 second response time
+Nov  1 10:44:23 rich-VirtualBox nagios3: SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;2;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 0.154 second response time
+Nov  1 10:45:23 rich-VirtualBox nagios3: SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;3;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 0.095 second response time
+Nov  1 10:46:23 rich-VirtualBox nagios3: SERVICE ALERT: localhost;HTTP;CRITICAL;HARD;4;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 0.061 second response time
+Nov  1 10:46:23 rich-VirtualBox nagios3: SERVICE NOTIFICATION: root;localhost;HTTP;CRITICAL;notify-service-by-email;HTTP CRITICAL: HTTP/1.1 500 500 Service unavailable (with message) - 520 bytes in 0.061 second response time
+Nov  1 10:46:23 rich-VirtualBox postfix/sendmail[1320]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 10:48:13 rich-VirtualBox NetworkManager[586]: <info>  [1541083693.7318] connectivity: (enp0s3) timed out
+Nov  1 10:48:13 rich-VirtualBox NetworkManager[586]: <info>  [1541083693.7319] manager: NetworkManager state is now CONNECTED_SITE
+Nov  1 10:48:13 rich-VirtualBox whoopsie[772]: [10:48:13] offline
+Nov  1 10:48:13 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 10:48:13 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 10:48:13 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 10:48:13 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 10:48:13 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Nov  1 10:48:13 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Nov  1 10:48:18 rich-VirtualBox PackageKit: get-updates transaction /34_cbdbccca from uid 1000 finished with success after 842ms
+Nov  1 10:48:18 rich-VirtualBox PackageKit: new update-packages transaction /35_abccccec scheduled from uid 1000
+Nov  1 10:48:20 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 10:48:20 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 10:48:49 rich-VirtualBox PackageKit: update-packages transaction /35_abccccec from uid 1000 finished with failed after 30434ms
+Nov  1 10:48:49 rich-VirtualBox gnome-software[1818]: failed to call gs_plugin_refresh on packagekit-refresh: E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libuuid1 amd64 2.31.1-0.4ubuntu3.2 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libsmartcols1 amd64 2.31.1-0.4ubuntu3.2 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 man-db amd64 2.8.3-2ubuntu0.1 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libavahi-client3 amd64 0.7-3.1ubuntu1.1 is not (yet) available (501  Not Implemented [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-modules-4.15.0-38-generic amd64 4.15.0-38.41 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-modules-extra-4.15.0-38-generic amd64 4.15.0-38.41 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-generic amd64 4.15.0.38.40 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 linux-headers-generic amd64 4.15.0.38.40 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 rfkill amd64 2.31.1-0.4ubuntu3.2 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 xserver-xorg amd64 1:7.7+19ubuntu7.1 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 xserver-xorg-video-all amd64 1:7.7+19ubuntu7.1 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])#012E: http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 brltty amd64 5.5-4ubuntu2.0.1 is not (yet) available (400  Bad Request [IP: 91.189.91.26 80])
+Nov  1 10:48:53 rich-VirtualBox postfix/sendmail[1479]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 10:50:04 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.13' (uid=1000 pid=1622 comm="/usr/bin/gnome-shell " label="unconfined")
+Nov  1 10:50:04 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Activating service name='org.gnome.seahorse.Application' requested by ':1.13' (uid=1000 pid=1622 comm="/usr/bin/gnome-shell " label="unconfined")
+Nov  1 10:50:05 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Nov  1 10:50:05 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Successfully activated service 'org.gnome.seahorse.Application'
+Nov  1 10:50:08 rich-VirtualBox PackageKit: resolve transaction /36_dddbdaee from uid 1000 finished with success after 433ms
+Nov  1 10:51:23 rich-VirtualBox nagios3: SERVICE ALERT: localhost;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 8998 bytes in 0.421 second response time
+Nov  1 10:51:23 rich-VirtualBox nagios3: SERVICE NOTIFICATION: root;localhost;HTTP;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 8998 bytes in 0.421 second response time
+Nov  1 10:51:23 rich-VirtualBox postfix/sendmail[1649]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 10:53:13 rich-VirtualBox NetworkManager[586]: <info>  [1541083993.7315] connectivity: (enp0s3) timed out
+Nov  1 10:57:47 rich-VirtualBox NetworkManager[586]: <info>  [1541084267.8739] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  1 10:57:47 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 10:57:47 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 10:57:47 rich-VirtualBox whoopsie[772]: [10:57:47] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 10:57:47 rich-VirtualBox whoopsie[772]: [10:57:47] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 10:57:47 rich-VirtualBox whoopsie[772]: [10:57:47] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 10:57:47 rich-VirtualBox whoopsie[772]: [10:57:47] online
+Nov  1 10:57:47 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 10:57:47 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 10:57:47 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Nov  1 10:57:47 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Nov  1 11:01:05 rich-VirtualBox systemd[1]: Started Run anacron jobs.
+Nov  1 11:01:05 rich-VirtualBox anacron[1878]: Anacron 2.3 started on 2018-11-01
+Nov  1 11:01:05 rich-VirtualBox anacron[1878]: Normal exit (0 jobs run)
+Nov  1 11:09:01 rich-VirtualBox CRON[2003]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Nov  1 11:09:05 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 11:09:06 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 11:16:59 rich-VirtualBox nagios3: Auto-save of retention data completed successfully.
+Nov  1 11:17:01 rich-VirtualBox CRON[2186]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 11:23:13 rich-VirtualBox NetworkManager[586]: <info>  [1541085793.7296] connectivity: (enp0s3) timed out
+Nov  1 11:23:13 rich-VirtualBox NetworkManager[586]: <info>  [1541085793.7297] manager: NetworkManager state is now CONNECTED_SITE
+Nov  1 11:23:13 rich-VirtualBox whoopsie[772]: [11:23:13] offline
+Nov  1 11:23:13 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 11:23:13 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 11:23:13 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 11:23:13 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 11:23:13 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Nov  1 11:23:13 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 640x438 Warning: We only handle separate sync.
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 640x438 stride
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 640x438 Warning: We only handle separate sync.
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 11:27:21 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 11:27:23 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 11:27:23 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 11:27:23 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 11:27:23 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 11:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 1600x835 stride
+Nov  1 11:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 11:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 11:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 11:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 11:27:44 rich-VirtualBox NetworkManager[586]: <info>  [1541086064.8670] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  1 11:27:44 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 11:27:44 rich-VirtualBox whoopsie[772]: [11:27:44] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 11:27:44 rich-VirtualBox whoopsie[772]: [11:27:44] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 11:27:44 rich-VirtualBox whoopsie[772]: [11:27:44] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 11:27:44 rich-VirtualBox whoopsie[772]: [11:27:44] online
+Nov  1 11:27:44 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 11:27:44 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 11:27:44 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 11:27:44 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Nov  1 11:27:44 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Nov  1 11:27:49 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.264' (uid=1000 pid=2258 comm="gedit " label="unconfined")
+Nov  1 11:27:49 rich-VirtualBox systemd[1]: Starting Hostname Service...
+Nov  1 11:27:49 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Nov  1 11:27:49 rich-VirtualBox systemd[1]: Started Hostname Service.
+Nov  1 11:32:28 rich-VirtualBox systemd[1]: Stopping The Apache HTTP Server...
+Nov  1 11:32:28 rich-VirtualBox apachectl[2357]: AH00526: Syntax error on line 33 of /etc/apache2/sites-enabled/000-default.conf:
+Nov  1 11:32:28 rich-VirtualBox apachectl[2357]: Invalid command 'vim:', perhaps misspelled or defined by a module not included in the server configuration
+Nov  1 11:32:28 rich-VirtualBox apachectl[2357]: Action 'stop' failed.
+Nov  1 11:32:28 rich-VirtualBox apachectl[2357]: The Apache error log may have more information.
+Nov  1 11:32:28 rich-VirtualBox systemd[1]: apache2.service: Control process exited, code=exited status=1
+Nov  1 11:32:28 rich-VirtualBox systemd[1]: apache2.service: Failed with result 'exit-code'.
+Nov  1 11:32:28 rich-VirtualBox systemd[1]: Stopped The Apache HTTP Server.
+Nov  1 11:32:28 rich-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov  1 11:32:29 rich-VirtualBox apachectl[2362]: AH00526: Syntax error on line 33 of /etc/apache2/sites-enabled/000-default.conf:
+Nov  1 11:32:29 rich-VirtualBox apachectl[2362]: Invalid command 'vim:', perhaps misspelled or defined by a module not included in the server configuration
+Nov  1 11:32:29 rich-VirtualBox apachectl[2362]: Action 'start' failed.
+Nov  1 11:32:29 rich-VirtualBox apachectl[2362]: The Apache error log may have more information.
+Nov  1 11:32:29 rich-VirtualBox systemd[1]: apache2.service: Control process exited, code=exited status=1
+Nov  1 11:32:29 rich-VirtualBox systemd[1]: apache2.service: Failed with result 'exit-code'.
+Nov  1 11:32:29 rich-VirtualBox systemd[1]: Failed to start The Apache HTTP Server.
+Nov  1 11:33:07 rich-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov  1 11:33:07 rich-VirtualBox apachectl[2380]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 11:33:07 rich-VirtualBox systemd[1]: Started The Apache HTTP Server.
+Nov  1 11:33:13 rich-VirtualBox NetworkManager[586]: <info>  [1541086393.7315] connectivity: (enp0s3) timed out
+Nov  1 11:33:13 rich-VirtualBox NetworkManager[586]: <info>  [1541086393.7315] manager: NetworkManager state is now CONNECTED_SITE
+Nov  1 11:33:13 rich-VirtualBox whoopsie[772]: [11:33:13] offline
+Nov  1 11:33:13 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 11:33:13 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 11:33:13 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 11:33:13 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 11:33:13 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Nov  1 11:33:13 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Nov  1 11:37:59 rich-VirtualBox systemd[1]: Stopping The Apache HTTP Server...
+Nov  1 11:37:59 rich-VirtualBox apachectl[2434]: AH00526: Syntax error on line 24 of /etc/apache2/sites-enabled/000-default.conf:
+Nov  1 11:37:59 rich-VirtualBox apachectl[2434]: Invalid command '.......', perhaps misspelled or defined by a module not included in the server configuration
+Nov  1 11:37:59 rich-VirtualBox apachectl[2434]: Action 'stop' failed.
+Nov  1 11:37:59 rich-VirtualBox apachectl[2434]: The Apache error log may have more information.
+Nov  1 11:37:59 rich-VirtualBox systemd[1]: apache2.service: Control process exited, code=exited status=1
+Nov  1 11:37:59 rich-VirtualBox systemd[1]: apache2.service: Failed with result 'exit-code'.
+Nov  1 11:37:59 rich-VirtualBox systemd[1]: Stopped The Apache HTTP Server.
+Nov  1 11:37:59 rich-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov  1 11:37:59 rich-VirtualBox apachectl[2439]: AH00526: Syntax error on line 24 of /etc/apache2/sites-enabled/000-default.conf:
+Nov  1 11:37:59 rich-VirtualBox apachectl[2439]: Invalid command '.......', perhaps misspelled or defined by a module not included in the server configuration
+Nov  1 11:37:59 rich-VirtualBox apachectl[2439]: Action 'start' failed.
+Nov  1 11:37:59 rich-VirtualBox apachectl[2439]: The Apache error log may have more information.
+Nov  1 11:37:59 rich-VirtualBox systemd[1]: apache2.service: Control process exited, code=exited status=1
+Nov  1 11:37:59 rich-VirtualBox systemd[1]: apache2.service: Failed with result 'exit-code'.
+Nov  1 11:37:59 rich-VirtualBox systemd[1]: Failed to start The Apache HTTP Server.
+Nov  1 11:38:18 rich-VirtualBox NetworkManager[586]: <info>  [1541086698.1893] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  1 11:38:18 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 11:38:18 rich-VirtualBox whoopsie[772]: [11:38:18] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 11:38:18 rich-VirtualBox whoopsie[772]: [11:38:18] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 11:38:18 rich-VirtualBox whoopsie[772]: [11:38:18] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Nov  1 11:38:18 rich-VirtualBox whoopsie[772]: [11:38:18] online
+Nov  1 11:38:18 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 11:38:18 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 11:38:18 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Nov  1 11:38:18 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 11:38:18 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Nov  1 11:38:50 rich-VirtualBox systemd[1]: Starting The Apache HTTP Server...
+Nov  1 11:38:50 rich-VirtualBox apachectl[2462]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Nov  1 11:38:50 rich-VirtualBox systemd[1]: Started The Apache HTTP Server.
+Nov  1 11:39:01 rich-VirtualBox CRON[2476]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Nov  1 11:39:05 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 11:39:06 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 11:45:45 rich-VirtualBox kernel: [23315.511270] e1000: enp0s3 NIC Link is Down
+Nov  1 11:45:47 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 11:45:47 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 11:45:47 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 11:45:47 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 11:45:49 rich-VirtualBox kernel: [23319.534516] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4305] device (enp0s3): carrier: link connected
+Nov  1 11:45:49 rich-VirtualBox dhclient[2621]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0xca386b1)
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4307] device (enp0s3): DHCPv4 lease renewal requested
+Nov  1 11:45:49 rich-VirtualBox dhclient[2621]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4318] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 709
+Nov  1 11:45:49 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4318] dhcp4 (enp0s3): state changed bound -> done
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4322] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 11:45:49 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4368] dhcp4 (enp0s3): dhclient started with pid 2621
+Nov  1 11:45:49 rich-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4725] dhcp4 (enp0s3):   address 10.0.2.15
+Nov  1 11:45:49 rich-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4725] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Nov  1 11:45:49 rich-VirtualBox dhclient[2621]: bound to 10.0.2.15 -- renewal in 41879 seconds.
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4726] dhcp4 (enp0s3):   gateway 10.0.2.2
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4726] dhcp4 (enp0s3):   lease time 86400
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4726] dhcp4 (enp0s3):   nameserver '128.235.205.77'
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4726] dhcp4 (enp0s3):   nameserver '128.235.205.76'
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4726] dhcp4 (enp0s3):   domain name 'resource.campus.njit.edu'
+Nov  1 11:45:49 rich-VirtualBox NetworkManager[586]: <info>  [1541087149.4726] dhcp4 (enp0s3): state changed unknown -> bound
+Nov  1 11:45:49 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 11:45:49 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 15:49:31 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 15:49:31 rich-VirtualBox nagios3: Warning: A system time change of 0d 3h 57m 52s (forwards in time) has been detected.  Compensating...
+Nov  1 15:49:31 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 15:50:13 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 15:50:13 rich-VirtualBox kernel: [23712.729612] e1000: enp0s3 NIC Link is Down
+Nov  1 15:50:13 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 15:50:13 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 15:50:13 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.5522] device (enp0s3): carrier: link connected
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.5523] device (enp0s3): DHCPv4 lease renewal requested
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.5537] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 2621
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.5537] dhcp4 (enp0s3): state changed bound -> done
+Nov  1 15:50:17 rich-VirtualBox kernel: [23716.768340] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.5554] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.5585] dhcp4 (enp0s3): dhclient started with pid 2815
+Nov  1 15:50:17 rich-VirtualBox dhclient[2815]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x6b3d5abe)
+Nov  1 15:50:17 rich-VirtualBox dhclient[2815]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.5996] dhcp4 (enp0s3):   address 10.0.2.15
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.5997] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.6002] dhcp4 (enp0s3):   gateway 10.0.2.2
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.6002] dhcp4 (enp0s3):   lease time 86400
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.6002] dhcp4 (enp0s3):   nameserver '128.235.205.77'
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.6002] dhcp4 (enp0s3):   nameserver '128.235.205.76'
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.6002] dhcp4 (enp0s3):   domain name 'resource.campus.njit.edu'
+Nov  1 15:50:17 rich-VirtualBox NetworkManager[586]: <info>  [1541101817.6002] dhcp4 (enp0s3): state changed unknown -> bound
+Nov  1 15:50:17 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 15:50:17 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 15:50:17 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 15:50:17 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 15:50:17 rich-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Nov  1 15:50:17 rich-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Nov  1 15:50:17 rich-VirtualBox dhclient[2815]: bound to 10.0.2.15 -- renewal in 34186 seconds.
+Nov  1 15:50:24 rich-VirtualBox postfix/sendmail[2830]: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 15:50:28 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 15:50:29 rich-VirtualBox systemd-resolved[340]: message repeated 7 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Nov  1 16:14:54 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 16:14:54 rich-VirtualBox anacron[2845]: Anacron 2.3 started on 2018-11-01
+Nov  1 16:14:54 rich-VirtualBox systemd[1]: Started Run anacron jobs.
+Nov  1 16:14:54 rich-VirtualBox anacron[2845]: Normal exit (0 jobs run)
+Nov  1 16:14:54 rich-VirtualBox systemd[1]: Starting Daily apt download activities...
+Nov  1 16:14:54 rich-VirtualBox nagios3: Warning: A system time change of 0d 0h 24m 19s (forwards in time) has been detected.  Compensating...
+Nov  1 16:14:55 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 16:14:59 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 16:14:59 rich-VirtualBox systemd-resolved[340]: message repeated 2 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Nov  1 16:15:19 rich-VirtualBox gnome-software[1818]: Only 0 apps for recent list, hiding
+Nov  1 16:15:21 rich-VirtualBox gnome-software[1818]: tried overwriting vlc key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/rich/.cache/gnome-software/cssresource/f086b7af91273453581758395baa3bd385e2ac41-banner-icon.png') left center / auto 100% no-repeat, url('/home/rich/.cache/gnome-software/cssresource/77e25ae4433ebd18cceeebee1c05d9ff0e1ef427-banner_32i5K4c.png') center / cover no-repeat;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner-icon.png') left center / auto 100% no-repeat, url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner_32i5K4c.png') center / cover no-repeat;;
+Nov  1 16:15:32 rich-VirtualBox snapd[591]: storehelpers.go:398: cannot refresh: snap has no updates available: "core", "gnome-3-26-1604", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Nov  1 16:15:42 rich-VirtualBox systemd[1]: Started Daily apt download activities.
+Nov  1 16:16:11 rich-VirtualBox systemd[1]: Reloading.
+Nov  1 16:16:13 rich-VirtualBox systemd[1]: Mounting Mount unit for gnome-calculator, revision 260...
+Nov  1 16:16:13 rich-VirtualBox systemd[1]: Mounted Mount unit for gnome-calculator, revision 260.
+Nov  1 16:16:17 rich-VirtualBox kernel: [23817.130327] audit: type=1400 audit(1541103377.112:79): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.gnome-calculator" pid=3597 comm="apparmor_parser"
+Nov  1 16:16:17 rich-VirtualBox kernel: [23817.757701] audit: type=1400 audit(1541103377.740:80): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.gnome-calculator.gnome-calculator" pid=3599 comm="apparmor_parser"
+Nov  1 16:16:18 rich-VirtualBox kernel: [23818.041700] audit: type=1400 audit(1541103378.016:81): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/5742/usr/lib/snapd/snap-confine" pid=3604 comm="apparmor_parser"
+Nov  1 16:16:18 rich-VirtualBox kernel: [23818.041703] audit: type=1400 audit(1541103378.016:82): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/snap/core/5742/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=3604 comm="apparmor_parser"
+Nov  1 16:16:18 rich-VirtualBox kernel: [23818.083397] audit: type=1400 audit(1541103378.064:83): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=3606 comm="apparmor_parser"
+Nov  1 16:16:18 rich-VirtualBox kernel: [23818.106795] audit: type=1400 audit(1541103378.088:84): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=3608 comm="apparmor_parser"
+Nov  1 16:16:25 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 16:16:25 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 16:16:25 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 16:16:25 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 16:17:01 rich-VirtualBox CRON[3632]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Nov  1 16:23:51 rich-VirtualBox org.gnome.Shell.desktop[1622]: (/usr/lib/firefox/firefox:30086): dconf-WARNING **: 16:23:51.495: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Nov  1 16:27:03 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 16:27:04 rich-VirtualBox systemd-resolved[340]: message repeated 9 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Nov  1 16:36:18 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 16:36:18 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 16:36:18 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 16:36:18 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 16:36:21 rich-VirtualBox gnome-control-c[3876]: /var/lib/gdm3/.local/share/icc/edid-1f1e201e766f22adc40c9969a5cfa3a4.icc is not usable by this user
+Nov  1 16:36:42 rich-VirtualBox gnome-control-c[3876]: /var/lib/gdm3/.local/share/icc/edid-1f1e201e766f22adc40c9969a5cfa3a4.icc is not usable by this user
+Nov  1 16:39:02 rich-VirtualBox CRON[3975]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Nov  1 16:39:05 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 16:39:05 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 16:39:10 rich-VirtualBox nagios3: Auto-save of retention data completed successfully.
+Nov  1 16:42:18 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 16:42:20 rich-VirtualBox kernel: [25380.011441] e1000: enp0s3 NIC Link is Down
+Nov  1 16:42:20 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 16:42:20 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 16:42:20 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 16:42:27 rich-VirtualBox kernel: [25387.100024] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.1233] device (enp0s3): carrier: link connected
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.1234] device (enp0s3): DHCPv4 lease renewal requested
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.1246] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 2815
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.1246] dhcp4 (enp0s3): state changed bound -> done
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.5673] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.5758] dhcp4 (enp0s3): dhclient started with pid 4103
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.5780] device (enp0s3): state change: activated -> unavailable (reason 'carrier-changed', sys-iface-state: 'managed')
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.5892] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 4103
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.5893] dhcp4 (enp0s3): state changed unknown -> done
+Nov  1 16:42:27 rich-VirtualBox avahi-daemon[516]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Nov  1 16:42:27 rich-VirtualBox avahi-daemon[516]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Nov  1 16:42:27 rich-VirtualBox avahi-daemon[516]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Nov  1 16:42:27 rich-VirtualBox avahi-daemon[516]: Withdrawing address record for fe80::fa0e:22e6:24ab:b115 on enp0s3.
+Nov  1 16:42:27 rich-VirtualBox avahi-daemon[516]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::fa0e:22e6:24ab:b115.
+Nov  1 16:42:27 rich-VirtualBox avahi-daemon[516]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Nov  1 16:42:27 rich-VirtualBox NetworkManager[586]: <info>  [1541104947.5978] manager: NetworkManager state is now CONNECTED_SITE
+Nov  1 16:42:28 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 16:42:28 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 16:42:28 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.2242] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  1 16:42:28 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.2374] manager: NetworkManager state is now DISCONNECTED
+Nov  1 16:42:28 rich-VirtualBox whoopsie[772]: [16:42:28] Cannot reach: https://daisy.ubuntu.com
+Nov  1 16:42:28 rich-VirtualBox whoopsie[772]: [16:42:28] offline
+Nov  1 16:42:28 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 16:42:28 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 16:42:28 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': new request (1 scripts)
+Nov  1 16:42:28 rich-VirtualBox nm-dispatcher: req:1 'connectivity-change': start running ordered scripts...
+Nov  1 16:42:28 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5190] device (enp0s3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:42:28 rich-VirtualBox nm-dispatcher: req:2 'down' [enp0s3]: new request (1 scripts)
+Nov  1 16:42:28 rich-VirtualBox nm-dispatcher: req:2 'down' [enp0s3]: start running ordered scripts...
+Nov  1 16:42:28 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Nov  1 16:42:29 rich-VirtualBox dhclient[4117]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x328f0b4e)
+Nov  1 16:42:29 rich-VirtualBox whoopsie[772]: [16:42:29] Cannot reach: https://daisy.ubuntu.com
+Nov  1 16:42:29 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Nov  1 16:42:29 rich-VirtualBox dhclient[4117]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Nov  1 16:42:29 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Nov  1 16:42:29 rich-VirtualBox dhclient[4117]: suspect value in domain_name option - discarded
+Nov  1 16:42:29 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit vino-server.service not loaded.
+Nov  1 16:42:29 rich-VirtualBox avahi-daemon[516]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5525] policy: auto-activating connection 'Wired connection 1'
+Nov  1 16:42:29 rich-VirtualBox avahi-daemon[516]: New relevant interface enp0s3.IPv4 for mDNS.
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5671] device (enp0s3): Activation: starting connection 'Wired connection 1' (d16c6e6f-4aa7-3b28-88f7-1766613a63ec)
+Nov  1 16:42:29 rich-VirtualBox avahi-daemon[516]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5683] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5685] manager: NetworkManager state is now CONNECTING
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5721] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5816] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5820] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104948.5971] dhcp4 (enp0s3): dhclient started with pid 4117
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1271] dhcp4 (enp0s3):   address 10.0.2.15
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1271] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1271] dhcp4 (enp0s3):   gateway 10.0.2.2
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1271] dhcp4 (enp0s3):   lease time 86400
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1272] dhcp4 (enp0s3):   nameserver '128.235.251.109'
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1272] dhcp4 (enp0s3):   nameserver '128.235.251.187'
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1272] dhcp4 (enp0s3):   nameserver '128.235.205.77'
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1272] dhcp4 (enp0s3):   nameserver '128.235.205.76'
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1272] dhcp4 (enp0s3): state changed unknown -> bound
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1379] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1461] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1501] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.1574] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  1 16:42:29 rich-VirtualBox nm-dispatcher: req:3 'up' [enp0s3]: new request (1 scripts)
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.5027] manager: NetworkManager state is now CONNECTED_SITE
+Nov  1 16:42:29 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.5028] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Nov  1 16:42:30 rich-VirtualBox NetworkManager[586]: <info>  [1541104949.5031] device (enp0s3): Activation: successful, device activated.
+Nov  1 16:42:30 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Nov  1 16:42:30 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Nov  1 16:42:30 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Nov  1 16:42:30 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit vino-server.service not loaded.
+Nov  1 16:42:30 rich-VirtualBox avahi-daemon[516]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::fa0e:22e6:24ab:b115.
+Nov  1 16:42:30 rich-VirtualBox avahi-daemon[516]: New relevant interface enp0s3.IPv6 for mDNS.
+Nov  1 16:42:30 rich-VirtualBox avahi-daemon[516]: Registering new address record for fe80::fa0e:22e6:24ab:b115 on enp0s3.*.
+Nov  1 16:42:30 rich-VirtualBox dhclient[4117]: bound to 10.0.2.15 -- renewal in 35538 seconds.
+Nov  1 16:42:31 rich-VirtualBox systemd-resolved[340]: Using degraded feature set (UDP) for DNS server 128.235.251.109.
+Nov  1 16:42:33 rich-VirtualBox systemd-resolved[340]: Using degraded feature set (TCP) for DNS server 128.235.251.109.
+Nov  1 16:42:33 rich-VirtualBox systemd-resolved[340]: Using degraded feature set (UDP) for DNS server 128.235.251.187.
+Nov  1 16:42:33 rich-VirtualBox systemd-resolved[340]: Using degraded feature set (UDP) for DNS server 128.235.205.76.
+Nov  1 16:42:35 rich-VirtualBox systemd-resolved[340]: Using degraded feature set (UDP) for DNS server 128.235.205.77.
+Nov  1 16:42:41 rich-VirtualBox nm-dispatcher: req:4 'connectivity-change': new request (1 scripts)
+Nov  1 16:42:58 rich-VirtualBox NetworkManager[586]: <info>  [1541104978.0839] device (enp0s3): state change: activated -> deactivating (reason 'user-requested', sys-iface-state: 'managed')
+Nov  1 16:42:58 rich-VirtualBox NetworkManager[586]: <info>  [1541104978.0840] manager: NetworkManager state is now DISCONNECTING
+Nov  1 16:43:06 rich-VirtualBox NetworkManager[586]: <info>  [1541104986.6090] audit: op="device-disconnect" interface="enp0s3" ifindex=2 pid=1622 uid=1000 result="success"
+Nov  1 16:43:06 rich-VirtualBox NetworkManager[586]: <info>  [1541104986.6107] device (enp0s3): state change: deactivating -> disconnected (reason 'user-requested', sys-iface-state: 'managed')
+Nov  1 16:43:06 rich-VirtualBox avahi-daemon[516]: Withdrawing address record for fe80::fa0e:22e6:24ab:b115 on enp0s3.
+Nov  1 16:43:06 rich-VirtualBox avahi-daemon[516]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::fa0e:22e6:24ab:b115.
+Nov  1 16:43:06 rich-VirtualBox avahi-daemon[516]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Nov  1 16:43:06 rich-VirtualBox nm-dispatcher: req:5 'connectivity-change': new request (1 scripts)
+Nov  1 16:43:06 rich-VirtualBox NetworkManager[586]: <info>  [1541104986.6352] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 4117
+Nov  1 16:43:06 rich-VirtualBox NetworkManager[586]: <info>  [1541104986.6352] dhcp4 (enp0s3): state changed bound -> done
+Nov  1 16:43:06 rich-VirtualBox avahi-daemon[516]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Nov  1 16:43:06 rich-VirtualBox avahi-daemon[516]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Nov  1 16:43:06 rich-VirtualBox avahi-daemon[516]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Nov  1 16:43:06 rich-VirtualBox NetworkManager[586]: <info>  [1541104986.6576] manager: NetworkManager state is now DISCONNECTED
+Nov  1 16:43:06 rich-VirtualBox whoopsie[772]: [16:43:06] Cannot reach: https://daisy.ubuntu.com
+Nov  1 16:43:06 rich-VirtualBox nm-dispatcher: req:6 'down' [enp0s3]: new request (1 scripts)
+Nov  1 16:43:06 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Nov  1 16:43:06 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Nov  1 16:43:09 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Nov  1 16:43:09 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit vino-server.service not loaded.
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1060] device (enp0s3): Activation: starting connection 'Wired connection 1' (d16c6e6f-4aa7-3b28-88f7-1766613a63ec)
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1096] audit: op="connection-activate" uuid="d16c6e6f-4aa7-3b28-88f7-1766613a63ec" name="Wired connection 1" pid=1622 uid=1000 result="success"
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1114] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1118] manager: NetworkManager state is now CONNECTING
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1159] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1323] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1328] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1490] dhcp4 (enp0s3): dhclient started with pid 4167
+Nov  1 16:43:11 rich-VirtualBox dhclient[4167]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x6df3ba5d)
+Nov  1 16:43:11 rich-VirtualBox dhclient[4167]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Nov  1 16:43:11 rich-VirtualBox dhclient[4167]: suspect value in domain_name option - discarded
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1877] dhcp4 (enp0s3):   address 10.0.2.15
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1877] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1878] dhcp4 (enp0s3):   gateway 10.0.2.2
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1878] dhcp4 (enp0s3):   lease time 86400
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1878] dhcp4 (enp0s3):   nameserver '128.235.251.109'
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1878] dhcp4 (enp0s3):   nameserver '128.235.251.187'
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1878] dhcp4 (enp0s3):   nameserver '128.235.205.77'
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1878] dhcp4 (enp0s3):   nameserver '128.235.205.76'
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1878] dhcp4 (enp0s3): state changed unknown -> bound
+Nov  1 16:43:11 rich-VirtualBox avahi-daemon[516]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Nov  1 16:43:11 rich-VirtualBox avahi-daemon[516]: New relevant interface enp0s3.IPv4 for mDNS.
+Nov  1 16:43:11 rich-VirtualBox avahi-daemon[516]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.1966] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:43:11 rich-VirtualBox whoopsie[772]: [16:43:11] Cannot reach: https://daisy.ubuntu.com
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.2066] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.2123] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.2258] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov  1 16:43:11 rich-VirtualBox dhclient[4167]: bound to 10.0.2.15 -- renewal in 35450 seconds.
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.3127] manager: NetworkManager state is now CONNECTED_SITE
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.3139] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Nov  1 16:43:11 rich-VirtualBox NetworkManager[586]: <info>  [1541104991.3141] device (enp0s3): Activation: successful, device activated.
+Nov  1 16:43:11 rich-VirtualBox nm-dispatcher: req:7 'up' [enp0s3]: new request (1 scripts)
+Nov  1 16:43:11 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Nov  1 16:43:11 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Nov  1 16:43:11 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Nov  1 16:43:12 rich-VirtualBox gsd-sharing[1725]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit vino-server.service not loaded.
+Nov  1 16:43:12 rich-VirtualBox avahi-daemon[516]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::fa0e:22e6:24ab:b115.
+Nov  1 16:43:12 rich-VirtualBox avahi-daemon[516]: New relevant interface enp0s3.IPv6 for mDNS.
+Nov  1 16:43:12 rich-VirtualBox avahi-daemon[516]: Registering new address record for fe80::fa0e:22e6:24ab:b115 on enp0s3.*.
+Nov  1 16:43:12 rich-VirtualBox NetworkManager[586]: <info>  [1541104992.3836] manager: NetworkManager state is now CONNECTED_GLOBAL
+Nov  1 16:43:12 rich-VirtualBox nm-dispatcher: req:8 'connectivity-change': new request (1 scripts)
+Nov  1 16:43:12 rich-VirtualBox whoopsie[772]: [16:43:12] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Nov  1 16:43:12 rich-VirtualBox whoopsie[772]: [16:43:12] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Nov  1 16:43:12 rich-VirtualBox whoopsie[772]: [16:43:12] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Nov  1 16:43:12 rich-VirtualBox whoopsie[772]: [16:43:12] online
+Nov  1 16:43:12 rich-VirtualBox nm-dispatcher: req:3 'up' [enp0s3]: start running ordered scripts...
+Nov  1 16:43:12 rich-VirtualBox nm-dispatcher[4105]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 16:43:13 rich-VirtualBox nm-dispatcher[4105]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 16:43:14 rich-VirtualBox nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Nov  1 16:43:14 rich-VirtualBox nm-dispatcher: req:5 'connectivity-change': start running ordered scripts...
+Nov  1 16:43:14 rich-VirtualBox nm-dispatcher: req:6 'down' [enp0s3]: start running ordered scripts...
+Nov  1 16:43:14 rich-VirtualBox nm-dispatcher: req:7 'up' [enp0s3]: start running ordered scripts...
+Nov  1 16:43:14 rich-VirtualBox nm-dispatcher[4105]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 16:43:15 rich-VirtualBox nm-dispatcher[4105]: postconf: fatal: open /etc/postfix/main.cf: No such file or directory
+Nov  1 16:43:16 rich-VirtualBox nm-dispatcher: req:8 'connectivity-change': start running ordered scripts...
+Nov  1 16:43:56 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 16:45:39 rich-VirtualBox systemd-resolved[340]: message repeated 13 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Nov  1 16:46:55 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 16:49:12 rich-VirtualBox kernel: [25792.945082] sched: RT throttling activated
+Nov  1 17:51:26 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 17:51:26 rich-VirtualBox anacron[5229]: Anacron 2.3 started on 2018-11-01
+Nov  1 17:51:26 rich-VirtualBox systemd[1]: Started Run anacron jobs.
+Nov  1 17:51:26 rich-VirtualBox anacron[5229]: Normal exit (0 jobs run)
+Nov  1 17:51:26 rich-VirtualBox nagios3: Warning: A system time change of 0d 1h 0m 46s (forwards in time) has been detected.  Compensating...
+Nov  1 17:51:26 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 17:51:47 rich-VirtualBox CRON[5336]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+Nov  1 17:53:39 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 17:53:39 rich-VirtualBox systemd-resolved[340]: message repeated 3 times: [ Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.]
+Nov  1 17:53:50 rich-VirtualBox org.gnome.Shell.desktop[1622]: (/usr/lib/firefox/firefox:5196): dconf-WARNING **: 17:53:50.632: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Nov  1 17:58:16 rich-VirtualBox kernel: [26290.919012] e1000: enp0s3 NIC Link is Down
+Nov  1 17:58:16 rich-VirtualBox kernel: [26290.932625] e1000 0000:00:03.0 enp0s3: Reset adapter
+Nov  1 17:58:18 rich-VirtualBox kernel: [26293.162612] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8045] device (enp0s3): carrier: link connected
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8047] device (enp0s3): DHCPv4 lease renewal requested
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8107] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 4167
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8107] dhcp4 (enp0s3): state changed bound -> done
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8215] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8351] dhcp4 (enp0s3): dhclient started with pid 5517
+Nov  1 17:58:18 rich-VirtualBox dhclient[5517]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x72dea219)
+Nov  1 17:58:18 rich-VirtualBox dhclient[5517]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8877] dhcp4 (enp0s3):   address 10.0.2.15
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8880] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8880] dhcp4 (enp0s3):   gateway 10.0.2.2
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8880] dhcp4 (enp0s3):   lease time 86400
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8880] dhcp4 (enp0s3):   nameserver '192.168.1.1'
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8880] dhcp4 (enp0s3):   domain name 'fios-router.home'
+Nov  1 17:58:18 rich-VirtualBox NetworkManager[586]: <info>  [1541109498.8881] dhcp4 (enp0s3): state changed unknown -> bound
+Nov  1 17:58:18 rich-VirtualBox dbus-daemon[563]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.14' (uid=0 pid=586 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Nov  1 17:58:18 rich-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov  1 17:58:18 rich-VirtualBox dbus-daemon[563]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov  1 17:58:18 rich-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov  1 17:58:18 rich-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Nov  1 17:58:18 rich-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Nov  1 17:58:19 rich-VirtualBox dhclient[5517]: bound to 10.0.2.15 -- renewal in 39401 seconds.
+Nov  1 20:20:46 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 20:20:46 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 20:20:46 rich-VirtualBox nagios3: Warning: A system time change of 0d 2h 21m 19s (forwards in time) has been detected.  Compensating...
+Nov  1 20:21:09 rich-VirtualBox org.gnome.Shell.desktop[1622]: (/usr/lib/firefox/firefox:5659): dconf-WARNING **: 20:21:09.804: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Nov  1 20:22:27 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.135' (uid=1000 pid=5713 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Nov  1 20:22:28 rich-VirtualBox dbus-daemon[1484]: [session uid=1000 pid=1484] Successfully activated service 'org.gnome.Terminal'
+Nov  1 20:22:28 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31859 (dbus-launch) in control group while starting unit. Ignoring.
+Nov  1 20:22:28 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 20:22:28 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31860 (dbus-daemon) in control group while starting unit. Ignoring.
+Nov  1 20:22:28 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 20:22:29 rich-VirtualBox systemd[1458]: gnome-terminal-server.service: Found left-over process 31863 (dconf-service) in control group while starting unit. Ignoring.
+Nov  1 20:22:29 rich-VirtualBox systemd[1458]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+Nov  1 20:22:29 rich-VirtualBox systemd[1458]: Starting GNOME Terminal Server...
+Nov  1 20:22:29 rich-VirtualBox systemd[1458]: Started GNOME Terminal Server.
+Nov  1 20:22:37 rich-VirtualBox snapd[591]: storehelpers.go:398: cannot refresh: snap has no updates available: "core", "gnome-3-26-1604", "gnome-calculator", "gnome-characters", "gnome-logs", "gnome-system-monitor", "gtk-common-themes"
+Nov  1 20:22:37 rich-VirtualBox snapd[591]: autorefresh.go:387: auto-refresh: all snaps are up-to-date
+Nov  1 20:23:26 rich-VirtualBox org.gnome.Shell.desktop[1622]: (/usr/lib/firefox/firefox:5388): dconf-WARNING **: 20:23:26.666: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Nov  1 20:27:20 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x900 Warning: We only handle separate sync.
+Nov  1 20:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 1600x900 stride
+Nov  1 20:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x900 Warning: We only handle separate sync.
+Nov  1 20:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:27:24 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 1600x835 stride
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:27:32 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 798x826 Warning: We only handle separate sync.
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 792x826 stride
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 798x826 Warning: We only handle separate sync.
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:27:39 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:32:42 rich-VirtualBox gnome-software[1818]: no app for changed ubuntu-dock@ubuntu.com
+Nov  1 20:32:42 rich-VirtualBox gnome-shell[1622]: Object .Gjs_AppIndicatorIconActor__1 (0x55d60a7036c0), has been already finalized. Impossible to set any property to it.
+Nov  1 20:32:42 rich-VirtualBox org.gnome.Shell.desktop[1622]: == Stack trace for context 0x55d605bb5340 ==
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #0 0x7ffef806e160 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7fd0cbcb5de0 @ 87)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #1 0x55d605fc2b38 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7fd0c3abc098 @ 58)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #2 0x7ffef806ed40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd0cbcb5de0 @ 71)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #3 0x7ffef806ee00 b   self-hosted:915 (0x7fd0cbcf12b8 @ 367)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #4 0x7ffef806eef0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd0cbcd3230 @ 386)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #5 0x55d605fc2ab0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7fd0c3aa7cd0 @ 22)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #6 0x7ffef806fb40 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd0cbcb5de0 @ 71)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #7 0x55d605fc2a08 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7fd0c3aa7340 @ 225)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #8 0x7ffef8070720 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd0cbcb5de0 @ 71)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #9 0x55d605fc2990 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7fd0c3a9a4d8 @ 37)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #10 0x55d605fc28d0 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7fd0cb95a120 @ 431)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #11 0x55d605fc2850 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7fd0cb95abc0 @ 13)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #12 0x7ffef8071420 b   self-hosted:251 (0x7fd0cbcc3ab0 @ 223)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #13 0x55d605fc27d0 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7fd0cb95ab38 @ 64)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #14 0x55d605fc2750 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7fd0cb95ac48 @ 87)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #15 0x7ffef8072920 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd0cbcd3230 @ 386)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #16 0x7ffef8073130 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7fd0cb86c670 @ 254)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #17 0x7ffef8074520 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd0cbcb5de0 @ 71)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #18 0x55d605fc2610 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7fd0cb86c450 @ 40)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #19 0x7ffef8075880 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd0cbcb5de0 @ 71)
+Nov  1 20:32:43 rich-VirtualBox gnome-software[1818]: no app for changed ubuntu-appindicators@ubuntu.com
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #20 0x55d605fc2568 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7fd0cb850bc0 @ 188)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #21 0x7ffef8076be0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd0cbcb5de0 @ 71)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #22 0x55d605fc24e0 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7fd0cb84ecd0 @ 18)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #23 0x7ffef8077f40 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd0cbcb5de0 @ 71)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #24 0x7ffef8078750 b   self-hosted:915 (0x7fd0cbcf12b8 @ 367)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #25 0x7ffef80795a0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd0cbcd3230 @ 386)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #26 0x55d605fc2460 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7fd0cb938890 @ 29)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #27 0x55d605fc23d8 i   resource:///org/gnome/shell/ui/tweener.js:113 (0x7fd0cbcc7e68 @ 37)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #28 0x55d605fc2338 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7fd0cbcd3b38 @ 54)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #29 0x55d605fc2218 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7fd0cbcd3bc0 @ 1626)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #30 0x55d605fc2188 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7fd0cbcd3c48 @ 100)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #31 0x55d605fc2110 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7fd0cbcd3cd0 @ 10)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #32 0x7ffef807c540 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7fd0cbcd3230 @ 386)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #33 0x55d605fc2080 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7fd0cbccf808 @ 159)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #34 0x7ffef807d8a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7fd0cbcb5de0 @ 71)
+Nov  1 20:32:43 rich-VirtualBox org.gnome.Shell.desktop[1622]: #35 0x55d605fc2000 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7fd0cbccf780 @ 15)
+Nov  1 20:32:50 rich-VirtualBox gnome-software[1818]: no app for changed ubuntu-dock@ubuntu.com
+Nov  1 20:32:50 rich-VirtualBox gnome-software[1818]: no app for changed ubuntu-appindicators@ubuntu.com
+Nov  1 20:32:50 rich-VirtualBox gvfsd-metadata[30697]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Nov  1 20:32:50 rich-VirtualBox gvfsd-metadata[30697]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Nov  1 20:32:51 rich-VirtualBox gnome-shell[1622]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.60/org/ayatana/NotificationItem/software_update_available
+Nov  1 20:32:53 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:32:53 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 20:32:53 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:32:53 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:32:53 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 1600x835 stride
+Nov  1 20:32:54 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:32:54 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 1600x835 Warning: We only handle separate sync.
+Nov  1 20:32:54 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:32:54 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 798x826 Warning: We only handle separate sync.
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Allocate new frame buffer 792x826 stride
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): EDID vendor "VBX", prod id 0
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): DDCModeFromDetailedTiming: 798x826 Warning: We only handle separate sync.
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using hsync ranges from config file
+Nov  1 20:32:58 rich-VirtualBox /usr/lib/gdm3/gdm-x-session[1476]: (II) modeset(0): Using vrefresh ranges from config file
+Nov  1 20:34:17 rich-VirtualBox systemd-resolved[340]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Nov  1 20:39:01 rich-VirtualBox CRON[7531]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Nov  1 20:39:05 rich-VirtualBox systemd[1]: Starting Clean php session files...
+Nov  1 20:39:06 rich-VirtualBox systemd[1]: Started Clean php session files.
+Nov  1 20:40:06 rich-VirtualBox postfix/sendmail[7639]: fatal: open /etc/postfix/main.cf: No such file or directory
